@@ -37,7 +37,7 @@ print('\n Words Distribution with top 10 words:')
 print(most_occur) 
 
 
-#Words Correlation Logic
+#Words Correlation Logic.
 bigrams = [b for l in newsList for b in zip(l.split(" ")[:-1], l.split(" ")[1:])]
 
 bigram_dict = collections.defaultdict(lambda: [0])
